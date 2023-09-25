@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+   <div class="box">
+    <header class="SignUp-header">
+        <h1>WorldTechStory</h1>
+        <h1>SignUp</h1>
+    </header>
+    <main class="signup-body">
+<form action="action_page.php">
+<div class="sub-container">
+<label for="UserName">UserName</label>
+<input type="text" placeholder="UserName.." required id="name" size="50">
+</div>
+<div class="sub-container">
+<label for="emailId">E-mail Id</label>
+<input type="email" placeholder="xyz@gmail.com" id="email" required >
+</div>
+<div class="sub-container" >
+<label for="password">Password</label>
+<input type="password" placeholder="@Passord at least 8 charactor"required id="password" min="8" max="12" >
+</div>
+<div class="sub-container" >
+<button type="submit" class="submitbtn">Create Acounts</button>
+</div>
+        </form>
+    </main>
+    <footer>
+        <p>Already Have an Acounts <a href="#">Login</a></p>
+    </footer>
+   </div>
+
+    </div>
+</body>
+</html>
